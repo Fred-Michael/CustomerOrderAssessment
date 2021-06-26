@@ -22,10 +22,10 @@ namespace CustomerOrder.Infrastructure.Repository
             return result.Entity;
         }
 
-        public async Task<bool> Completed()
-        {
-            return await _ctx.SaveChangesAsync() > 0;
-        }
+        //public async Task<bool> Completed()
+        //{
+        //    return await _ctx.SaveChangesAsync() > 0;
+        //}
 
         public void DeleteCustomer(Customer customer)
         {

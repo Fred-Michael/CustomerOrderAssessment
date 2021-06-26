@@ -14,6 +14,6 @@ namespace CustomerOrder.Domain.Interface
         Task<Customer> AddCustomer(Customer customer);
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(Customer customer);
-        Task<bool> Completed();
+        //Task<bool> Completed();
     }
 }
